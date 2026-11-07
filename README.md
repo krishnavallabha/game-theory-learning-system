@@ -78,11 +78,6 @@ Then open http://localhost:8000.
 - **Keys:** every answer key is re-derived independently, and keys that could not be checked against the paper are marked *derived*.
 - **Citations:** no page numbers or timestamps are cited unless they appear in the source.
 
-## Deploying on Render
-
-1. Push this repo to GitHub.
-2. On [render.com](https://render.com), choose **New → Blueprint**, pick this repository and click **Apply**. `render.yaml` sets up a free static site.
-3. Every later `git push` to `main` redeploys the site.
 
 ## Roadmap
 

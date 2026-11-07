@@ -1,0 +1,16 @@
+# Whitelist: this folder also holds textbooks, past papers, notes and zips
+# that must never be committed. Only the project files below are tracked.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/build.py
+!/render.yaml
+!/src/
+!/scripts/
+!/public/
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

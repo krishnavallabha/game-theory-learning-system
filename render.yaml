@@ -1,0 +1,13 @@
+# Render Blueprint: free static site serving the prebuilt dashboard.
+# public/index.html is generated locally with `python build.py` and committed,
+# so Render only has to serve it (no build step to break).
+services:
+  - type: web
+    name: game-theory-learning-system
+    runtime: static
+    buildCommand: echo "Serving prebuilt public/index.html"
+    staticPublishPath: ./public
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache

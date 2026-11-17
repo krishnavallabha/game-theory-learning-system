@@ -9,6 +9,7 @@
 !/src/
 !/scripts/
 !/public/
+!/docs/
 
 __pycache__/
 *.pyc
